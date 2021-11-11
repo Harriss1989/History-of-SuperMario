@@ -19,7 +19,7 @@
             <h1>Sign Up to our Newsletter for updates on all things Super Mario and Nintendo</h1>
         </a>
 
-        <nav class="nav">
+        <nav>
             <ul>
                 <li><a href="signup.html">News Letter Sign In</a></li>
                 <li><a href="Nintendo.html">Nintendo</a></li>
@@ -28,18 +28,24 @@
         </nav>
     </header>
     <section class="Newsletter">
+
+        <h2>Let's-a GO!! Sign Up</h2>
+
         <form method="Post" action="" target="_blank"></form>
 
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="fname">
+        <input type="text" id="fname" name="fname" required>
 
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname" required>
 
         <label for="email">Email Address</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
 
-        <input type="submit">
+        <label for="terms-and-conditions">By clicking this box you agree to our terms and conditions</label>
+        <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions" required>
+
+        <input type="submit" value="HERE WE GO!">
 
     </section>
 

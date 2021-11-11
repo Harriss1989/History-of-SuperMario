@@ -1,5 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Open+Sans+Condensed:wght@300&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color: lightblue;
+}
+
+/* heading style */
+
+header {
+    font-family: Mochiy Pop One, sans-serif;
+    color: red;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+h1,h2{
+
+}
+
+header li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    letter-spacing: 4px;
+    color: seashell;
+}
+
+/* navigation style */
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: sandybrown;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: seashell;
+    text-decoration: none;
+    font-size: 10px;
+    width: 33.3%;
+    text-align: center center;
 }

@@ -17,12 +17,15 @@ body{
  font-family:  Mochiy Pop One, sans-serif;
  text-transform: uppercase;
  letter-spacing: 4px;
- color :cornflowerblue ;
+ color:red ;
 }
 
 #logo {
-    float: left;
+    float: left; 
+    text-align: center;
     font-size: 250%;
+    margin: 30px;
+   
 }
 
 /* navigation style */
@@ -32,7 +35,7 @@ body{
     letter-spacing: 4px;
 }
 #menu, #logo {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #menu li {
@@ -48,7 +51,7 @@ body{
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid red;
 }
 .active {
     border-bottom: 1px solid red;
@@ -62,20 +65,22 @@ body{
 #info, h2, p {
     text-align: center;
     color: #3a3a3a;
-    
+    margin: 30px;
+    border: 30px;  
 }
 
 /* hero image */
 
 #hero-outer {
-    height: 200px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
 #hero-image {
-    height: 300px;
+    height: 600px;
     width: 100%;
-    background: url(../images/pattern-1929506_1280.png) center center;
+    background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
+    box-shadow:20px 20px 50px grey;
 }
 

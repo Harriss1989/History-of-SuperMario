@@ -9,7 +9,7 @@
 body{
     font-family:  Open Sans Condensed, sans-serif;
     font-weight: 300px;
-    color: #3a3a3a;
+    color:red ;
 }
 /* heading and logo */
 
@@ -17,12 +17,12 @@ body{
  font-family:  Mochiy Pop One, sans-serif;
  text-transform: uppercase;
  letter-spacing: 4px;
- color: #252525;
+ color :cornflowerblue ;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 250%;
 }
 
 /* navigation style */
@@ -53,3 +53,29 @@ body{
 .active {
     border-bottom: 1px solid red;
 }
+
+#info {
+    height: 300px;
+    width: 100%;
+}
+
+#info, h2, p {
+    text-align: center;
+    color: #3a3a3a;
+    
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/pattern-1929506_1280.png) center center;
+}
+

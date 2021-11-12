@@ -23,31 +23,33 @@ body{
 #logo {
     float: left;
     font-size: 280%;
-
 }
-/* header li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    float: right;
-    letter-spacing: 4px;
-    color: seashell;
-} */ 
 
 /* navigation style */
 
-/* .navbar {
-    width: 100%;
-    overflow: hidden;
-    background-color: sandybrown;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
 }
 
-.navbar a {
-    float: left;
-    padding: 12px;
-    color: seashell;
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}
+
+#menu a {
     text-decoration: none;
-    font-size: 10px;
-    width: 33.3%;
-    text-align: center center;
-} */
+    color: inherit;
+    font-family:  Mochiy Pop One, sans-serif;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+.active {
+    border-bottom: 1px solid red;
+}

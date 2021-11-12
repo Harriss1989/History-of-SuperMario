@@ -1,31 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Open+Sans+Condensed:wght@300&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     border: none;
 }
 
-body{
-    font-family:  Open Sans Condensed, sans-serif;
+body {
+    font-family: Open Sans Condensed, sans-serif;
     font-weight: 300px;
-    color:red ;
+    color: red;
 }
+
 /* heading and logo */
 
- h1,h2{
- font-family:  Mochiy Pop One, sans-serif;
- text-transform: uppercase;
- letter-spacing: 4px;
- color:red ;
+h1,
+h2 {
+    font-family: Mochiy Pop One, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: red;
 }
 
 #logo {
-    float: left; 
+    float: left;
     text-align: center;
     font-size: 250%;
     margin: 30px;
-   
+
 }
 
 /* navigation style */
@@ -34,7 +36,9 @@ body{
     font-size: 110%;
     letter-spacing: 4px;
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 50px;
 }
 
@@ -47,36 +51,59 @@ body{
 #menu a {
     text-decoration: none;
     color: inherit;
-    font-family:  Mochiy Pop One, sans-serif;
+    font-family: Mochiy Pop One, sans-serif;
 }
 
 #menu a:hover {
     border-bottom: 1px solid red;
 }
+
 .active {
     border-bottom: 1px solid red;
 }
+
+/* info and time line */
 
 #info {
     height: 300px;
     width: 33.3%;
 }
 
-#info, h2, p {
+#info,
+h2,
+p {
     text-align: center;
     color: #3a3a3a;
     margin: 30px;
-    border: 30px;  
+    border: 30px;
     background: chartreuse;
 }
 
-#time-line{
+#time-line {
     height: 300px;
     width: 33.3%;
-    float:left;
+    float: left;
     text-align: center;
     margin: 30px;
+}
+
+#time-line  ol li {
+    float: left;
+    color: #3a3a3a;
+    margin: 30px;
+    border: 30px;
     background: chocolate;
+}
+
+#other-titles {
+    height: 300px;
+    width: 33.3%;
+}
+
+#other-titles li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
 }
 
 /* hero image */
@@ -91,6 +118,5 @@ body{
     height: 600px;
     width: 100%;
     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
-    box-shadow:20px 20px 50px grey;
+    box-shadow: 20px 20px 50px grey;
 }
-

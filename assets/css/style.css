@@ -79,50 +79,35 @@ h2 {
 /* info, time-line,text-area and other-titles */
 
 #text-area {
-    height:600px;
-   
+  
+    display: flex;
+    flex-direction: ;
+    flex-flow: column wrap;
+    
+    
 }
 
 #time-line {
-    padding-top: 30px;
+   
     background: blue;
-    float: left;
-    width: 33%;
+    justify-content: space-evenly;
+    
    
 }
 
 #other-titles {
-    padding-top: 30px;
+  
     background: greenyellow;
-    float: right;
-    width: 33%;
-    
+    justify-content: space-evenly;
 }
 
 #info {
-    padding-top: 30px;
+    
     background: yellow;
-    width: 33%;
-    margin: 0 auto;
+    justify-content: space-evenly;
   
+    
 }
 
 /* time content, other-content and info-content */
 
-.time-content {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-.other-content {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-.info-content {
-  margin: 0 auto;
-}

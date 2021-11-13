@@ -26,7 +26,7 @@ h2 {
     float: left;
     text-align: center;
     font-size: 250%;
-    margin: 30px;
+    margin: 40px;
 }
 
 /* navigation style */
@@ -61,32 +61,6 @@ h2 {
     border-bottom: 1px solid red;
 }
 
-/* info and time line */
-#info {
-    background: yellow;
-    text-align: center;
-    max-width: 33.3%;
-    display: inline-block;
-    margin: 30px;
-    border: 30px;
-}
-
-#time-line {
-    background: blue;
-    float: left;
-    max-width: 33.3%;
-    margin: 30px;
-    border: 30px;
-}
-
-#other-titles {
-    background: greenyellow;
-    float: right;
-    max-width: 33.3%;
-    margin: 30px;
-    border: 30px;
-}
-
 /* hero image */
 
 #hero-outer {
@@ -100,4 +74,55 @@ h2 {
     width: 100%;
     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
     box-shadow: 20px 20px 50px grey;
+}
+
+/* info, time-line,text-area and other-titles */
+
+#text-area {
+    height:600px;
+   
+}
+
+#time-line {
+    padding-top: 30px;
+    background: blue;
+    float: left;
+    width: 33%;
+   
+}
+
+#other-titles {
+    padding-top: 30px;
+    background: greenyellow;
+    float: right;
+    width: 33%;
+    
+}
+
+#info {
+    padding-top: 30px;
+    background: yellow;
+    width: 33%;
+    margin: 0 auto;
+  
+}
+
+/* time content, other-content and info-content */
+
+.time-content {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.other-content {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.info-content {
+  margin: 0 auto;
 }

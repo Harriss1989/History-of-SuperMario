@@ -27,7 +27,6 @@ h2 {
     text-align: center;
     font-size: 250%;
     margin: 30px;
-
 }
 
 /* navigation style */
@@ -63,47 +62,28 @@ h2 {
 }
 
 /* info and time line */
-
 #info {
-    height: 300px;
-    width: 33.3%;
+background:yellow;
+text-align: center;
+max-width: 33.3%;
+display: inline-block;
+margin: 30px;
+border: 30px;
 }
-
-#info,
-h2,
-p {
-    text-align: center;
-    color: #3a3a3a;
-    margin: 30px;
-    border: 30px;
-    background: chartreuse;
-}
-
 #time-line {
-    height: 300px;
-    width: 33.3%;
-    float: left;
-    text-align: center;
-    margin: 30px;
-}
-
-#time-line  ol li {
-    float: left;
-    color: #3a3a3a;
-    margin: 30px;
-    border: 30px;
-    background: chocolate;
+background: blue;
+float: left;
+max-width: 33.3%;
+margin: 30px;
+border: 30px;
 }
 
 #other-titles {
-    height: 300px;
-    width: 33.3%;
-}
-
-#other-titles li {
-    float: right;
-    list-style-type: none;
-    margin: 30px;
+background: greenyellow;
+float: right;
+max-width: 33.3%;
+margin:30px;
+border: 30px;
 }
 
 /* hero image */

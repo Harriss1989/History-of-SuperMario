@@ -63,27 +63,28 @@ h2 {
 
 /* info and time line */
 #info {
-background:yellow;
-text-align: center;
-max-width: 33.3%;
-display: inline-block;
-margin: 30px;
-border: 30px;
+    background: yellow;
+    text-align: center;
+    max-width: 33.3%;
+    display: inline-block;
+    margin: 30px;
+    border: 30px;
 }
+
 #time-line {
-background: blue;
-float: left;
-max-width: 33.3%;
-margin: 30px;
-border: 30px;
+    background: blue;
+    float: left;
+    max-width: 33.3%;
+    margin: 30px;
+    border: 30px;
 }
 
 #other-titles {
-background: greenyellow;
-float: right;
-max-width: 33.3%;
-margin:30px;
-border: 30px;
+    background: greenyellow;
+    float: right;
+    max-width: 33.3%;
+    margin: 30px;
+    border: 30px;
 }
 
 /* hero image */

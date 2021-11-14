@@ -9,7 +9,8 @@
 body {
     font-family: Open Sans Condensed, sans-serif;
     font-weight: 300px;
-    color: red;
+    color: #e4c6c6;
+    
 }
 
 /* heading and logo */
@@ -19,14 +20,17 @@ h2 {
     font-family: Mochiy Pop One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: red;
+    color: black;
 }
+
+
 
 #logo {
     float: left;
     text-align: center;
     font-size: 250%;
     margin: 40px;
+    color: #f50909;
 }
 
 /* navigation style */
@@ -34,6 +38,7 @@ h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    box-shadow: 50px 50px 50px 50px rgba(0, 60, 255, 0.418);
 }
 
 #menu,
@@ -44,7 +49,8 @@ h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 30px;
+    margin: 10px;
+    color: #f50909;
 }
 
 #menu a {
@@ -64,23 +70,24 @@ h2 {
 /* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 575px;
     width: 100%;
     overflow: hidden;
+    
+    
 }
 
 #hero-image {
-    height: 600px;
+    height: 575px;
     width: 100%;
     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
-    box-shadow: 20px 20px 50px grey;
+   
 }
 
 /* flex-container */
 
 .flexbox-container {
-    height: 800px;
-    background-color: crimson;
+    height: 600px;
     display: flex;
     justify-content: center;
 }
@@ -88,24 +95,40 @@ h2 {
 .flexbox-item{
     width: 500px;
     margin: 10px;
-    border: 3px solid #333;
+    border: 2px solid #333;
 }
 
 .flexbox-item-1 {
-    background-color: aqua;
+    background-color: whitesmoke;
     min-height: 100px;
-   flex-shrink: 1;
+    flex-shrink: 1;
+  
 }
 
 .flexbox-item-2 {
-    background-color: blue;
     min-height: 100px; 
     flex-grow: 3;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    background-color: whitesmoke;
 }
 
 .flexbox-item-3 {
-    background-color: chocolate;
+    background-color: whitesmoke;
     min-height: 100px;
     flex-shrink: 1;
    
+}
+
+.flexbox-container  {
+    color: black;
+}
+ul li {
+    padding: 25px;
+    color: black;
+}
+
+p {
+    color: black;
 }

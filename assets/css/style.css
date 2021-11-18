@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Open+Sans+Condensed:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Nunito&display=swap');
 
 * {
     padding: 0;
@@ -8,9 +8,9 @@
 }
 
 body {
-    font-family: Open Sans Condensed, sans-serif;
+    font-family: Nunito, sans-serif;
     font-weight: 300px;
-    color: #e4c6c6;
+    background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
     
 }
 
@@ -39,7 +39,7 @@ h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    box-shadow: 50px 50px 50px 50px rgba(0, 60, 255, 0.418);
+   
 }
 
 #menu,
@@ -96,7 +96,7 @@ h2 {
 .flexbox-item{
     width: 500px;
     margin: 10px;
-    border: 2px solid #333;
+   
 }
 
 .flexbox-item-1 {
@@ -115,11 +115,11 @@ h2 {
     background-color: whitesmoke;
 }
 
-.flexbox-item-3 {
-    background-color: whitesmoke;
+
+.flexbox-item-3 { 
     min-height: 100px;
     flex-shrink: 1;
-   
+   background-color:whitesmoke;
 }
 
 .flexbox-container  {
@@ -132,6 +132,14 @@ ul li {
 
 p {
     color: black;
+    letter-spacing: 0.3px;
+    text-align: left;
+    font-family: Mochiy Pop One, sans-serif;
+    font-weight: lighter;
+}
+
+.flexbox-container li {
+    list-style-type: none;
 }
 
 /* footer links */
@@ -165,14 +173,12 @@ form label {
     font-size: 18px;
 }
 
-input[type=submit] {
+#submit {
     background-color: blue;
     border: none;
     color: coral;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
-    cursor: pointer;
-    
-     
+    cursor: pointer;    
 }

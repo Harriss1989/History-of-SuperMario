@@ -104,7 +104,10 @@ h2 {
     background-color: rgb(235 222 222 / 72%);
     min-height: 100px;
     flex-shrink: 1;
-  
+    text-align: center;
+
+    box-shadow: 0px 0px 10px 5px black;
+    border-radius: 1% / 1% ;
 }
 
 .flexbox-item-2 {
@@ -120,10 +123,16 @@ h2 {
 
 
 .flexbox-item-3 { 
+
+    background-color: rgb(235 222 222 / 72%);
     min-height: 100px;
     flex-shrink: 1;
-    background-color: rgb(235 222 222 / 72%);
+    text-align: center;
+
+    box-shadow: 0px 0px 10px 5px black;
+    border-radius: 1% / 1% ;
 }
+    
 
 
 ul li {
@@ -141,6 +150,7 @@ p {
 
 .flexbox-container li {
     list-style-type: none;
+    text-align: left;
 }
 
 /* footer links */
@@ -157,7 +167,7 @@ p {
 
 .sign-up-form {
     width: 350px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px 5px black;
     background: #f50909;
     padding: 20px;
     margin: 8% auto 0;
@@ -182,9 +192,10 @@ form label {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;  
-    box-shadow: 0 0 0 0.3 rgba; 
+    box-shadow: 0px 0px 10px 5px black; 
 }
 #name {
     font-family: Nunito, sans-serif;
     font-weight: 20px;
+    text-align: left;
 }

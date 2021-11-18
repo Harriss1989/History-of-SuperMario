@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    text-decoration: none;
 }
 
 body {
@@ -81,7 +82,7 @@ h2 {
     height: 575px;
     width: 100%;
     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
-   
+    
 }
 
 /* flex-container */
@@ -131,4 +132,14 @@ ul li {
 
 p {
     color: black;
+}
+
+/* footer links */
+
+#footer {
+    background: url(../images/c167ca3f3e60865d03150d91b21a6813.png);
+    position: relative;
+    height: 100px;
+    margin-top: 100px;
+    clear: both;
 }

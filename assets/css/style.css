@@ -17,7 +17,7 @@ body {
 /* heading and logo */
 
 h1,
-h2 {
+h2, h3 {
     font-family: Mochiy Pop One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -74,17 +74,18 @@ h2 {
     height: 575px;
     width: 100%;
     overflow: hidden;
-    
-    
 }
 
 #hero-image {
     height: 575px;
     width: 100%;
     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
-    
 }
-
+#image-2 {
+    height: 575px;
+    width: 100%;
+    background: url(../images/1200px-Nintendo.svg.png) no-repeat center center;
+}
 /* flex-container */
 
 .flexbox-container {

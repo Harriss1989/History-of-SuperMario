@@ -24,8 +24,6 @@ h2, h3 {
     color: black;
 }
 
-
-
 #logo {
     float: left;
     text-align: center;
@@ -170,14 +168,16 @@ p {
     width: 350px;
     box-shadow: 0px 0px 10px 5px black;
     background: #f50909;
-    padding: 20px;
+    padding: 25px;
     margin: 8% auto 0;
     text-align: center;
 }
-
+.sign-up-form h2 {
+    color: blue;
+}
 form {
-    width: 350px;
-    margin-left: 20px;
+    width: 300px;
+    margin-left: 25px;
 }
 form label {
     display: flex;
@@ -197,6 +197,6 @@ form label {
 }
 #name {
     font-family: Nunito, sans-serif;
-    font-weight: 20px;
+    font-weight: 10px;
     text-align: left;
 }

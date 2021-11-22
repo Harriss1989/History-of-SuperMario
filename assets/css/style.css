@@ -11,14 +11,13 @@ body {
     font-family: Nunito, sans-serif;
     font-weight: 300px;
     background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
-    
 }
 
 /* heading and logo */
 
 h1,
 h2, h3 {
-    font-family: Mochiy Pop One, sans-serif;
+    font-family: "Mochiy Pop One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
@@ -55,7 +54,7 @@ h2, h3 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    font-family: Mochiy Pop One, sans-serif;
+    font-family: "Mochiy Pop One", sans-serif;
 }
 
 #menu a:hover {
@@ -163,8 +162,8 @@ p {
     background: url(../images/c167ca3f3e60865d03150d91b21a6813.png);
     position: relative;
     height: 100px;
-    margin-top: 100px;
-    clear: both;
+    margin-top: auto;
+    
 }
 
 /* sign-up-form */
@@ -209,7 +208,13 @@ form label {
 /* font awsome logos */
 
 .fab {
-    text-align: center;
     font-size: 80px;
-    color:black;
+    color:blue;  
+    padding-right: 10px;
+}
+
+.socialmeida {
+    display: ;
+    bottom: 20px;
+    left: 50px;
 }

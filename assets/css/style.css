@@ -1,220 +1,237 @@
  @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Nunito&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    border: none;
-    text-decoration: none;
-}
+ * {
+     padding: 0;
+     margin: 0;
+     border: none;
+     text-decoration: none;
+ }
 
-body {
-    font-family: Nunito, sans-serif;
-    font-weight: 300px;
-    background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
-}
+ body {
+     font-family: Nunito, sans-serif;
+     font-weight: 300px;
+     background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
+ }
 
-/* heading and logo */
+ /* heading and logo */
 
-h1,
-h2, h3 {
-    font-family: "Mochiy Pop One", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: black;
-}
+ header {
+     background: #047cea;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-#logo {
-    float: left;
-    text-align: center;
-    font-size: 250%;
-    margin: 40px;
-    color: #f50909;
-}
 
-/* navigation style */
+ h1,
+ h2,
+ h3 {
+     font-family: "Mochiy Pop One", sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: black;
+ }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-   
-}
+ #logo {
+     display: flex;
+     /* float: left; */
+     /* text-align: center; */
+     font-size: 250%;
+     margin: 10 px;
+     color: #c0c0c0;
+     justify-content: center;
+ }
 
-#menu,
-#logo {
-    line-height: 50px;
-}
+ /* navigation style */
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin: 10px;
-    color: #f50909;
-}
+ #menu {
+     display: flex;
+     font-size: 110%;
+     letter-spacing: 4px;
+     justify-content: flex-end;
 
-#menu a {
-    text-decoration: none;
-    color: inherit;
-    font-family: "Mochiy Pop One", sans-serif;
-}
+ }
 
-#menu a:hover {
-    border-bottom: 1px solid red;
-}
+ #menu,
+ #logo {
+     line-height: 50px;
+ }
 
-.active {
-    border-bottom: 1px solid red;
-}
+ #menu li {
+     float: right;
+     list-style-type: none;
+     margin: 10px;
+     color: #c0c0c0;
+ }
 
-/* hero image */
+ #menu a {
+     text-decoration: none;
+     color: inherit;
+     font-family: "Mochiy Pop One", sans-serif;
+ }
 
-#hero-outer {
-    height: 575px;
-    width: 100%;
-    overflow: hidden;
-}
+ #menu a:hover {
+     border-bottom: 1px solid red;
+ }
 
-#hero-image {
-    height: 575px;
-    width: 100%;
-    background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
-}
-#image-2 {
-    height: 575px;
-    width: 100%;
-    background: url(../images/1200px-Nintendo.svg.png) no-repeat center center;
-}
-/* flex-container */
+ .active {
+     border-bottom: 1px solid red;
+ }
 
-.flexbox-container {
-    height: 600px;
-    display: flex;
-    justify-content: center;
-}
+ /* hero image */
 
-.flexbox-item{
-    width: 500px;
-    margin: 10px;
-   
-}
 
-.flexbox-item-1 {
+ #hero-image {
+     height: 65vh;
+     width: 100%;
+     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
+     background-size: cover;
+ }
+
+ #image-2 {
+     height: 575px;
+     width: 100%;
+     background: url(../images/1200px-Nintendo.svg.png) no-repeat center center;
+ }
+
+ /* flex-container */
+
+ .flexbox-container {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+
+ .flexbox-item {
+     width: 1500px;
+     margin: 20px;
+
+ }
+
+ .flexbox-item-1 {
+
+     background-color: rgb(235 222 222 / 72%);
+     min-height: 100px;
+     flex-shrink: 1;
+     
+     overflow-y: scroll;
+     box-shadow: 0px 0px 10px 5px black;
+     border-radius: 1% / 1%;
+     order: 2;
+ }
+
+ .flexbox-item-2 {
+     min-height: 100px;
+     flex-grow: 3;
+     
+     text-align: center;
+     background-color: rgb(235 222 222 / 72%);
+     box-shadow: 0px 0px 10px 5px black;
+     border-radius: 1% / 1%;
+     order: 1;
+
+ }
+
+
+ .flexbox-item-3 {
+
+     background-color: rgb(235 222 222 / 72%);
+     min-height: 100px;
+     flex-shrink: 1;
+     text-align: center;
     
-    background-color: rgb(235 222 222 / 72%);
-    min-height: 100px;
-    flex-shrink: 1;
-    text-align: center;
-    overflow: hidden;
-    overflow-y: scroll;
-    box-shadow: 0px 0px 10px 5px black;
-    border-radius: 1% / 1% ;
-}
-
-.flexbox-item-2 {
-    min-height: 100px; 
-    flex-grow: 3;
-    overflow: hidden;
-    overflow-y: scroll;
-    text-align: center;
-    background-color: rgb(235 222 222 / 72%);
-    box-shadow: 0px 0px 10px 5px black;
-    border-radius: 1% / 1% ;
-    
-}
+     box-shadow: 0px 0px 10px 5px black;
+     border-radius: 1% / 1%;
+     order: 3;
+ }
 
 
-.flexbox-item-3 { 
 
-    background-color: rgb(235 222 222 / 72%);
-    min-height: 100px;
-    flex-shrink: 1;
-    text-align: center;
-    overflow: hidden;
-    overflow-y: scroll;
-    box-shadow: 0px 0px 10px 5px black;
-    border-radius: 1% / 1% ;
-}
-    
+ ul li {
+     padding: 25px;
+     color: #41423d;
+ }
 
+ p {
+     color: #41423d;
+     letter-spacing: 0.3px;
+     text-align: left;
+     font-family: Nunito, sans-serif;
+     font-weight: lighter;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
 
-ul li {
-    padding: 25px;
-    color: black;
-}
+ .flexbox-container li {
+     list-style-type: none;
+     text-align: left;
+ }
 
-p {
-    color: black;
-    letter-spacing: 0.3px;
-    text-align: left;
-    font-family: Nunito, sans-serif;
-    font-weight: lighter;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+ /* footer links */
 
-.flexbox-container li {
-    list-style-type: none;
-    text-align: left;
-}
+ #footer {
+     background: #161516;
+ }
 
-/* footer links */
+ /* sign-up-form */
 
-#footer {
-    background: url(../images/c167ca3f3e60865d03150d91b21a6813.png);
-    position: relative;
-    height: 100px;
-    margin-top: auto;
-    
-}
+ .sign-up-form {
+     width: 350px;
+     box-shadow: 0px 0px 10px 5px black;
+     background: #f50909;
+     padding: 25px;
+     margin: 8% auto 0;
+     text-align: center;
+ }
 
-/* sign-up-form */
+ .sign-up-form h2 {
+     color: blue;
+ }
 
-.sign-up-form {
-    width: 350px;
-    box-shadow: 0px 0px 10px 5px black;
-    background: #f50909;
-    padding: 25px;
-    margin: 8% auto 0;
-    text-align: center;
-}
-.sign-up-form h2 {
-    color: blue;
-}
-form {
-    width: 300px;
-    margin-left: 25px;
-}
-form label {
-    display: flex;
-    margin-top: 25px;
-    font-size: 18px;
-}
+ form {
+     width: 300px;
+     margin-left: 25px;
+ }
 
-#submit {
-    background-color: blue;
-    border: none;
-    color: coral;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;  
-    box-shadow: 0px 0px 10px 5px black; 
-}
-#name {
-    font-family: Nunito, sans-serif;
-    font-weight: 10px;
-    text-align: left;
-}
+ form label {
+     display: flex;
+     margin-top: 25px;
+     font-size: 18px;
+ }
 
-/* font awsome logos */
+ #submit {
+     background-color: blue;
+     border: none;
+     color: coral;
+     padding: 16px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     cursor: pointer;
+     box-shadow: 0px 0px 10px 5px black;
+ }
 
-.fab {
-    font-size: 80px;
-    color:blue;  
-    padding-right: 10px;
-}
+ #name {
+     font-family: Nunito, sans-serif;
+     font-weight: 10px;
+     text-align: left;
+ }
 
-.socialmeida {
-    display: ;
-    bottom: 20px;
-    left: 50px;
-}
+ /* font awsome logos */
+ .far {
+     color: white;
+
+ }
+
+ .fab {
+     font-size: 40px;
+     color: #c0c0cb;
+     padding-right: 20px;
+     padding-bottom: 20px;
+ }
+
+ .socialmeida {
+     display: flex;
+     justify-content: center;
+ }

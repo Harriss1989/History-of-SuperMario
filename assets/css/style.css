@@ -24,8 +24,7 @@
 
 
  h1,
- h2,
- h3 {
+ h2 {
      font-family: "Mochiy Pop One", sans-serif;
      text-transform: uppercase;
      letter-spacing: 4px;
@@ -33,12 +32,28 @@
      text-align: center;
  }
 
+ h3 {
+     font-family: "Mochiy Pop One", sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: black;
+     text-align: center;
+     padding-bottom: 10px;
+     padding-top: 15px;
+ }
+
+ b {
+     font-weight: 900;
+     text-transform: uppercase;
+     font-family: "Mochiy Pop One", sans-serif;
+ }
+
  #logo {
      display: flex;
      /* float: left; */
      /* text-align: center; */
      font-size: 250%;
-     margin: 10 px;
+     margin: 10px;
      color: #c0c0c0;
      justify-content: center;
  }
@@ -59,7 +74,7 @@
  }
 
  #menu li {
-     float: right;
+     /*float: right;*/
      list-style-type: none;
      margin: 10px;
      color: #c0c0c0;
@@ -134,6 +149,7 @@
      order: 1;
 
  }
+
 
  ul li {
      padding: 10px;
@@ -231,7 +247,7 @@
      margin: 20px;
  }
 
- 
+
 
  .character-bio-box-1 {
      background-color: rgb(235 222 222 / 72%);

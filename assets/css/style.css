@@ -52,8 +52,6 @@
 
  #logo {
      display: flex;
-     /* float: left; */
-     /* text-align: center; */
      font-size: 250%;
      margin: 10px;
      color: #c0c0c0;
@@ -76,7 +74,6 @@
  }
 
  #menu li {
-     /*float: right;*/
      list-style-type: none;
      margin: 10px;
      color: #c0c0c0;
@@ -102,14 +99,15 @@
  #hero-image {
      height: 65vh;
      width: 100%;
-     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center center;
+     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center;
      background-size: cover;
  }
 
- #image-2 {
-     height: 575px;
+ #thankyou {
+     height: 65vh;
      width: 100%;
-     background: url(../images/1200px-Nintendo.svg.png) no-repeat center center;
+     background: url(../images/FreeVector-3D-Mario_FreeVector-3D-Mario.jpg)no-repeat center;
+     margin-top: 120px;
  }
 
  /* flex-container */
@@ -123,9 +121,8 @@
  }
 
  .flexbox-item {
-     width: 1500px;
-     margin: 20px;
-
+     width: 90%;
+     margin: 20px
  }
 
  .flexbox-item-1 {
@@ -133,8 +130,6 @@
      background-color: rgb(235 222 222 / 72%);
      min-height: 100px;
      flex-shrink: 1;
-
-
      box-shadow: 0px 0px 10px 5px black;
      border-radius: 1% / 1%;
      order: 2;
@@ -153,11 +148,6 @@
  }
 
 
- ul li {
-     padding: 10px;
-     color: #41423d;
- }
-
  p {
      color: #41423d;
      letter-spacing: 0.3px;
@@ -171,55 +161,90 @@
  }
 
  .flexbox-container li {
-    font-size: larger;
+     font-size: larger;
  }
 
  /* footer links */
 
  .social-meida {
      background: #161516;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     text-align: center;
  }
 
  /* sign-up-form */
 
  .sign-up-form {
-     width: 350px;
+
      box-shadow: 0px 0px 10px 5px black;
-     background: #f50909;
-     padding: 25px;
+     background: #fff;
      margin: 8% auto 0;
      text-align: center;
+     width: 50vh;
+     height: 60vh;
  }
 
- .sign-up-form h2 {
-     color: blue;
+ input {
+     border: 1px solid black;
+ }
+
+ .sign-up-form > h2 {
+     color: #121212;
+     font-size: xx-large;
+     padding-top: 30px;
  }
 
  form {
-     width: 300px;
+     width: 50vh;
      margin-left: 25px;
  }
 
  form label {
      display: flex;
-     margin-top: 25px;
-     font-size: 18px;
+     margin-top: 6vh;
+     font-size: 20px;
+ }
+
+ #fname {
+     width: 300px;
+     height: 30px;
+ }
+
+ #lname {
+     width: 300px;
+     height: 30px;
+ }
+
+ #email {
+     width: 300px;
+     height: 30px;
  }
 
  #submit {
-     background-color: blue;
+     background-color: rgb(249, 249, 250);
      border: none;
-     color: coral;
+     color: rgb(2, 1, 0);
      padding: 16px 32px;
      text-decoration: none;
      margin: 4px 2px;
      cursor: pointer;
      box-shadow: 0px 0px 10px 5px black;
+     position: relative;
+     transform: translateY(100%);
+     left: -5%;
+ }
+
+ #terms-and-conditions {
+     position: relative;
+     left: 54%;
+     transform: translateY(-290%)
  }
 
  #name {
      font-family: Nunito, sans-serif;
-     font-weight: 10px;
      text-align: left;
  }
 
@@ -247,10 +272,11 @@
      display: flex;
      background: rgb(235 222 222 / 72%);
      justify-content: space-evenly;
-   
+     margin-top: 40px;
+     margin-bottom: 40px;
  }
 
- .character-bio-box-1 {
+ .character-bio-box {
      background-color: rgb(235 222 222 / 72%);
      box-shadow: 0px 0px 10px 5px black;
      border-radius: 1% / 1%;
@@ -258,64 +284,54 @@
 
  }
 
- .character-bio-box-2 {
-     background-color: rgb(235 222 222 / 72%);
-     box-shadow: 0px 0px 10px 5px black;
-     border-radius: 1% / 1%;
-     max-width: 19%;
+ #character-header {
+     margin: 4px;
+     font-size: x-large;
  }
 
- .character-bio-box-3 {
-     background-color: rgb(235 222 222 / 72%);
-     box-shadow: 0px 0px 10px 5px black;
-     border-radius: 1% / 1%;
-     max-width: 19%;
+ .character-bio-box>img {
+     width: 90%;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
  }
 
- .character-bio-box-4 {
-     background-color: rgb(235 222 222 / 72%);
-     box-shadow: 0px 0px 10px 5px black;
-     border-radius: 1% / 1%;
-     max-width: 19%;
+ .character-bio-box>h3 {
+     padding: 20px;
  }
 
- .character-bio-box-5 {
-     background-color: rgb(235 222 222 / 72%);
-     box-shadow: 0px 0px 10px 5px black;
-     border-radius: 1% / 1%;
-     max-width: 19%;
- }
-
- img {
-     width: 300px;
-     border: 2px solid black;
+ .character-bio-box>ul {
+     text-align: center;
+     list-style-type: none;
+     padding: 10px;
+     font-size: larger;
  }
 
  .box1 {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 20px;
-    font-size: larger;
-    justify-content: space-evenly;
-    align-content: center;
-    align-items: center;
+     display: flex;
+     flex-direction: row-reverse;
+     padding: 20px;
+     font-size: larger;
+     justify-content: space-evenly;
+     align-content: center;
+     align-items: center;
+ }
+
+ .box1>img {
+     width: 20%;
+     border: 2px solid black;
  }
 
  .box2 {
-    display: flex;
-    padding: 20px;
-    font-size: larger;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
+     display: flex;
+     padding: 20px;
+     font-size: larger;
+     align-content: center;
+     justify-content: space-evenly;
+     align-items: center;
  }
 
- .box3 {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 20px;
-    font-size: larger;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
+ .box2>img {
+     width: 20%;
+     border: 2px solid black;
  }

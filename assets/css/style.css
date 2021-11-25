@@ -90,7 +90,7 @@
  }
 
  .active {
-     border-bottom: 1px solid red;
+     border-bottom: 1px solid rgb(248, 245, 245);
  }
 
  /* hero image */
@@ -173,6 +173,12 @@
      left: 0;
      width: 100%;
      
+ }
+
+ #footer-container {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
  }
 
  /* sign-up-form */

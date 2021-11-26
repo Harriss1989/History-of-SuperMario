@@ -339,7 +339,7 @@
  /* Media queries */
 
  @media screen and (max-width: 1570px) {
-     
+
  }
 
  @media screen and (max-width: 1410px) {
@@ -434,6 +434,11 @@
      }
  }
 
+@media screen and (max-width: 610px){
+    #submit{
+        margin-top: 50px;
+    }
+}
  @media screen and (max-width: 544px) {
 
      #menu {
@@ -457,4 +462,5 @@
     font-size: x-large;
 }
  }
+
  

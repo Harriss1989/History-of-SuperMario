@@ -338,6 +338,26 @@
 
  /* Media queries */
 
+ @media screen and (max-width: 1570px) {
+     
+ }
+
+ @media screen and (max-width: 1410px) {
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+ }
+
  @media screen and (max-width: 1300px) {
 
      header {
@@ -356,6 +376,7 @@
  }
 
  @media screen and (max-width: 1150px) {
+
      .flexbox-item {
          padding-left: 20px;
      }
@@ -368,42 +389,72 @@
          padding-right: 20px;
      }
 
-     
+     .character-container {
+         flex-direction: column;
+         align-items: center;
+         background: none;
+     }
+
+     .character-bio-box {
+        padding-top: 20px;
+        max-width: 75%;
+        margin-bottom: 20px;
+     }
+
+     .character-bio-box > img {
+        max-width: 25%;
+     }
+     .character-h1 {
+        font-size: xx-large;
+    }
+
  }
+
  @media screen and (max-width: 985px) {
-    .flexbox-item {
-        padding-left: 20px;
-    }
+     .flexbox-item {
+         padding-left: 20px;
+     }
 
-    .box1 {
-        flex-direction: column;
-    }
+     .box1 {
+         flex-direction: column;
+     }
 
-    .box2 {
-        flex-direction: column;
-    }
-    .box2>img {
-        width: 30%;
-        margin: 15px;
-    }
-    .box1>img {
-        width: 55%;
-        margin: 15px;
-    }
+     .box2 {
+         flex-direction: column;
+     }
+
+     .box2>img {
+         width: 30%;
+         margin: 15px;
+     }
+
+     .box1>img {
+         width: 55%;
+         margin: 15px;
+     }
  }
+
  @media screen and (max-width: 544px) {
 
-    #menu {
-    font-size: 100%;
-    flex-direction: column;
-    line-height: 30px;
-    }
-    .box2>img {
-        width:40%;
-        margin: 15px;
-    }
-    .box1>img {
-        width: 55%;
-        margin: 15px;
-    }
+     #menu {
+         font-size: 100%;
+         flex-direction: column;
+         line-height: 30px;
+     }
+
+     .box2>img {
+         width: 40%;
+         margin: 15px;
+     }
+
+     .box1>img {
+         width: 55%;
+         margin: 15px;
+     }
  }
+ @media screen and (max-width: 465px) {
+ #logo {
+    font-size: x-large;
+}
+ }
+ 

@@ -24,6 +24,13 @@
      align-items: center;
  }
 
+#logo {
+     display: flex;
+     font-size: 250%;
+     margin: 10px;
+     color: #c0c0c0;
+     justify-content: center;
+ }
 
  h1,
  h2 {
@@ -44,18 +51,22 @@
      padding-top: 15px;
  }
 
+ p {
+     color: #41423d;
+     letter-spacing: 0.3px;
+     text-align: left;
+     font-family: Nunito, sans-serif;
+     font-weight: lighter;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 20px;
+     font-size: large;
+ }
+
  b {
      font-weight: 900;
      text-transform: uppercase;
      font-family: "Mochiy Pop One", sans-serif;
- }
-
- #logo {
-     display: flex;
-     font-size: 250%;
-     margin: 10px;
-     color: #c0c0c0;
-     justify-content: center;
  }
 
  /* navigation style */
@@ -65,7 +76,6 @@
      font-size: 110%;
      letter-spacing: 4px;
      justify-content: flex-end;
-
  }
 
  #menu,
@@ -104,9 +114,9 @@
  }
 
  #thankyou {
-     height: 65vh;
+     height: 100%;
      width: 100%;
-     background: url(../images/FreeVector-3D-Mario_FreeVector-3D-Mario.jpg)no-repeat center;
+     background: url(../images/FreeVector-3D-Mario_FreeVector-3D-Mario.jpg) no-repeat center;
      margin-top: 120px;
  }
 
@@ -129,7 +139,6 @@
 
      background-color: rgb(235 222 222 / 72%);
      min-height: 100px;
-     flex-shrink: 1;
      box-shadow: 0px 0px 10px 5px black;
      border-radius: 1% / 1%;
      order: 2;
@@ -137,8 +146,6 @@
 
  .flexbox-item-2 {
      min-height: 100px;
-     flex-grow: 3;
-
      text-align: center;
      background-color: rgb(235 222 222 / 72%);
      box-shadow: 0px 0px 10px 5px black;
@@ -146,20 +153,6 @@
      order: 1;
 
  }
-
-
- p {
-     color: #41423d;
-     letter-spacing: 0.3px;
-     text-align: left;
-     font-family: Nunito, sans-serif;
-     font-weight: lighter;
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-top: 20px;
-     font-size: large;
- }
-
  .flexbox-container li {
      font-size: larger;
  }
@@ -184,18 +177,8 @@
  /* sign-up-form */
 
  .sign-up-form {
-
-     box-shadow: 0px 0px 10px 5px black;
-     background: #fff;
-     margin: 8% auto 0;
-     text-align: center;
-     width: 50vh;
-     height: 60vh;
-     position: relative;
- }
-
- input {
-     border: 1px solid black;
+     width: 100%;
+     flex-grow: 2;
  }
 
  .sign-up-form>h2 {
@@ -205,14 +188,27 @@
  }
 
  form {
-     width: 50vh;
-     margin-left: 25px;
+     display: flex;
+     flex-direction: column;
+     padding: 50px;
+     box-sizing: border-box;
+     align-items: center;
+     height: fit-content;
+     box-shadow: 0px 0px 10px 5px black;
+     background: #fff;
+     margin: 8% auto 0;
+     text-align: center;
+     width: 40%;
  }
 
  form label {
-     display: flex;
-     margin-top: 3vh;
-    font-size: 20px;
+     align-self: start;
+     font-size: 20px;
+ }
+
+ #name {
+     font-family: Nunito, sans-serif;
+     text-align: left;
  }
 
  #fname {
@@ -230,6 +226,13 @@
      height: 30px;
  }
 
+ span {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+ }
+
  #submit {
      background-color: rgb(249, 249, 250);
      border: none;
@@ -239,23 +242,19 @@
      margin: 4px 2px;
      cursor: pointer;
      box-shadow: 0px 0px 10px 5px black;
-     position: absolute;
-     transform: translateY(73%);
-     left: 35%;
  }
 
  #terms-and-conditions {
-     position: absolute;
-     left: 25%;
-     transform: translateY(-150%);
+     align-self: center;
+     flex-grow: 2;
  }
 
- #name {
-     font-family: Nunito, sans-serif;
-     text-align: left;
+ input {
+     border: 1px solid black;
  }
 
  /* font awsome logos */
+
  .far {
      color: white;
 
@@ -343,11 +342,14 @@
      border: 2px solid black;
  }
 
- /* Media queries */ 
+ /* Media queries */
 
  @media screen and (max-width: 1200px) {
+     #header {
+         width: 65%;
+         height: 1200px;
+         margin: 0 auto;
+
+     }
 
  }
-
-     
- 

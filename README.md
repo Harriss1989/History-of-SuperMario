@@ -7,54 +7,47 @@ History of Super Mario is a site for looking back at the iconic characters, game
 
 
 ## User Experience (UX)
-<ul>User stories</ul>
-<ol>Visitor Goals</ol>
-<li>When visiting this site, I want to be able to navigate easily, to find any content I may wish to explore.
-</li>
-<li>When visiting this site, I want to be able to easily find out about the games and the storys surrounding them in the Super Mario Bros franchise.
-</li>
-<li>When visiting this site, I want to be able to find out the information and abilities of the main characters across most of the games.</li>
-<li>When visiting this site, I want the option to be kept up to date with any information regarding the franchise, or any changes to the website.</li>
+* User stories
+* Visitor Goals
+    * When visiting this site, I want to be able to navigate easily, to find any content I may wish to explore.
+
+    * When visiting this site, I want to be able to easily find out about the games and the storys surrounding them in the Super Mario Bros franchise.
+
+    * When visiting this site, I want to be able to find out the information and abilities of the main characters across most of the games.
+
+    * When visiting this site, I want the option to be kept up to date with any information regarding the franchise, or any changes to the website.
+
 
 # Colour Scheme
-The two main colours used are Code Insititue red, and white.
-Typography
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-Wireframes
-Home Page Wireframe - View
+### Backgroud Color Scheme
+![image of color gradient for background](/assets/images/gradient-color-pallet.png)
 
-Mobile Wireframe - View
+Home Page Wireframe - [View](/assets/wireframes/main-page.png)
 
-Contact Us Page Wireframe - View
+Mobile Wireframe - [View](/assets/wireframes/main-page-mobile.png)
 
-Features
+Sign up page Wireframe - [View](/assets/wireframes/sign-up-page.png)
+
+Thank you page Wireframe - [View](/assets/wireframes/thankyou.png)
+
+## Features
 Responsive on all device sizes
 
-Interactive elements
+## Technologies Used
+* Languages Used
+* HTML5
+* CSS3
 
-Technologies Used
-Languages Used
-HTML5
-CSS3
-Frameworks, Libraries & Programs Used
-Bootstrap 4.4.1:
-Bootstrap was used to assist with the responsiveness and styling of the website.
-Hover.css:
-Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-Google Fonts:
+## Google Fonts:
 Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 Font Awesome:
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-jQuery:
-jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+
 Git
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 GitHub:
 GitHub is used to store the projects code after being pushed from Git.
-Photoshop:
-Photoshop was used to create the logo, resizing images and editing photos for the website.
+
 Balsamiq:
 Balsamiq was used to create the wireframes during the design process.
 Testing

@@ -109,14 +109,14 @@
  #hero-image {
      height: 65vh;
      width: 100%;
-     background: url(../images/d82ee50ba90ce9bfe4836be3e0730dcb.jpeg) no-repeat center;
+     background: url(../images/heroimage.jpeg) no-repeat center;
      background-size: cover;
  }
 
  #thankyou {
      height: 80vh;
      width: 100%;
-     background: url(../images/FreeVector-3D-Mario_FreeVector-3D-Mario.jpg) no-repeat center;
+     background: url(../images/3dmario.jpg) no-repeat center;
      margin-top: 120px;
  }
 

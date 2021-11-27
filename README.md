@@ -21,7 +21,8 @@ History of Super Mario is a site for looking back at the iconic characters, game
 # Colour Scheme
 ### Backgroud Color Scheme
 ![image of color gradient for background](/assets/images/gradient-color-pallet.png)
-
+### Colors used for elements in site
+![image of color gradient for elements in site](/assets/images/colorscheme.png)
 Home Page Wireframe - [View](/assets/wireframes/main-page.png)
 
 Mobile Wireframe - [View](/assets/wireframes/main-page-mobile.png)
@@ -39,18 +40,18 @@ Responsive on all device sizes
 * CSS3
 
 ## Google Fonts:
-Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-Font Awesome:
+Google fonts were used to import the "Mochiy Pop One" and  "Nunito" font into the style.css file which is used on all pages throughout the project. 
+## Font Awesome:
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-Git
+## Git
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 GitHub:
 GitHub is used to store the projects code after being pushed from Git.
 
-Balsamiq:
+## Balsamiq:
 Balsamiq was used to create the wireframes during the design process.
-Testing
+## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 W3C Markup Validator - Results

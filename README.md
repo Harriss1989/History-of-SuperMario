@@ -50,7 +50,7 @@ GitHub:
 GitHub is used to store the projects code after being pushed from Git.
 
 ## Balsamiq:
-Balsamiq was used to create the wireframes during the design process.
+Balsamiq was used to create the wireframes during the design process. The wirefames do not match the final deployed site, after user feedback on early development of the site i decided to to change the lay out, to make it more user friendly. I removed the hisory of Nintendo and changed it to a charater bio page for the main 5 charaters. I belive this make for a more streamline version of the site keeping content to a minimum.
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 

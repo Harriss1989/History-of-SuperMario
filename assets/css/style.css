@@ -14,6 +14,11 @@ body {
 	background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
 }
 
+.page-container {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
 /* heading and logo */
 
 header {

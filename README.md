@@ -34,7 +34,7 @@ Font Awesome was used on all pages throughout the website to add icons for socia
 ### Background Color Scheme
 ![image of color gradient for background](/assets/images/gradient-color-pallet.png)
 ### Colors used for elements in site
-![image of color gradient for elements in site](/assets/images/colors-for-text.png)
+![image of color gradient for elements in site](/assets/images/contrast.png)
 ![image of pass grades](/assets/images/gradientpassinfo.png)
 
 ## Balsamiq:
@@ -99,8 +99,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 add validater repot for other pages
 addlighthouse reports desktop and mobile
 add wave.web aim report 
-W3C Markup Validator - [Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Findex.html)
-
+W3C Markup Validator - [Results] index.html(https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Findex.html)
+W3C Markup Validator - [Results]()
 W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 list what browser and devices iv tested on

@@ -96,14 +96,49 @@ GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-add validater repot for other pages
-addlighthouse reports desktop and mobile
+
+
+* light house report desktop
+![light house report desktop](/assets/images/lighthouse.png)
+* light house report mobile
+![light house report mobile](/assets/images/lighthousemobile.png)
+
+
 add wave.web aim report 
-W3C Markup Validator - [Results] index.html(https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Findex.html)
-W3C Markup Validator - [Results] characters.html(https://validator.w3.org/nu/#textarea)
-W3C Markup Validator - [Results](https://validator.w3.org/nu/#textarea)
-W3C Markup Validator - [Results](https://validator.w3.org/nu/#textarea)
-W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+* W3C Markup Validatorindex.html - [Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Findex.html)
+
+* W3C Markup Validator characters.html - [Results](https://validator.w3.org/nu/#textarea)
+
+* W3C Markup Validator signup.html - [Results](https://validator.w3.org/nu/#textarea)
+
+* W3C Markup Validator yoursignedup- [Results](https://validator.w3.org/nu/#textarea)
+
+* W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+# Browsers Tested
+* Sefari
+* Google Chrome
+* Microsfoft Edge
+* Firefox
+
+# Devices Tested
+* Iphone xr 
+    * Sefari - iso 14.8.1 
+    * Chrome - version 95.0.4638.50
+* Ipad 7th generation 
+    * Sefari - iso 14.8.1
+* Iphone 11 
+    * Sefari - iso 15.1
+* Iphone 11 pro max
+    * Sefari - iso 15.1
+* Apple MacBook Air 13"
+    * Chrome - Version 96.0.4664.55
+    * Sefari - Version 15.1 (17612.2.9.1.20)
+    * Firefox -Version 94.0.2
+* Hp Laptop
+    * Microsoft Edge - version 96.0.1054.34 
+    
 
 list what browser and devices iv tested on
 checked like works other tabs worked 

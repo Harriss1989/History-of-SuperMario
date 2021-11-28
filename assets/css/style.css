@@ -115,7 +115,7 @@ b {
 	height: 80vh;
 	width: 100%;
 	background: url(../images/3dmario.png) no-repeat center;
-	margin-top: 120px;
+	background-size: contain;
 }
 
 /* flex-container */
@@ -169,6 +169,7 @@ b {
 .sign-up-form {
 	width: 100%;
 	flex-grow: 2;
+	margin-bottom: 20px;
 }
 
 .sign-up-form>h2 {

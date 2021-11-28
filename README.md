@@ -23,13 +23,6 @@ History of Super Mario is a site for looking back at the iconic characters, game
 ![image of color gradient for background](/assets/images/gradient-color-pallet.png)
 ### Colors used for elements in site
 ![image of color gradient for elements in site](/assets/images/colorscheme.png)
-Home Page Wireframe - [View](/assets/wireframes/main-page.png)
-
-Mobile Wireframe - [View](/assets/wireframes/main-page-mobile.png)
-
-Sign up page Wireframe - [View](/assets/wireframes/sign-up-page.png)
-
-Thank you page Wireframe - [View](/assets/wireframes/thankyou.png)
 
 ## Features
 Responsive on all device sizes
@@ -51,10 +44,19 @@ GitHub is used to store the projects code after being pushed from Git.
 
 ## Balsamiq:
 Balsamiq was used to create the wireframes during the design process. The wirefames do not match the final deployed site, after user feedback on early development of the site i decided to to change the lay out, to make it more user friendly. I removed the hisory of Nintendo and changed it to a charater bio page for the main 5 charaters. I belive this make for a more streamline version of the site keeping content to a minimum.
+
+Home Page Wireframe - [View](/assets/wireframes/main-page.png)
+
+Mobile Wireframe - [View](/assets/wireframes/main-page-mobile.png)
+
+Sign up page Wireframe - [View](/assets/wireframes/sign-up-page.png)
+
+Thank you page Wireframe - [View](/assets/wireframes/thankyou.png)
+
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-W3C Markup Validator - Results
+W3C Markup Validator - [Results](https://validator.w3.org/nu/#textarea)
 W3C CSS Validator - Results
 Testing User Stories from User Experience (UX) Section
 First Time Visitor Goals

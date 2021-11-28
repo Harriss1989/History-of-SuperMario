@@ -207,13 +207,13 @@
      font-size: 20px;
  }
 
- #name {
+ .name {
      font-family: Nunito, sans-serif;
      text-align: left;
  }
 
  .input-name {
-     width: 300px;
+     width: 225px;
      height: 30px;
  }
 

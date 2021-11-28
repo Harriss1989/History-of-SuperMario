@@ -20,16 +20,17 @@ Link to site
     * When visiting this site, I want the option to be kept up to date with any information regarding the franchise, or any changes to the website.
 
 # Stucture
-The site consists of three main pages Super Mario, Character's, Newsletter and a hiddin thank you page when all user detail are entered in to form and submited.
+The site consists of three main pages, Super Mario, Characters, Newsletter and a hiddin thank you page when all user detail are entered into the form and submited.
 # Design
 
-The site design evolved over time from origanl plans, feed back from user input made me re-think the layout as there was alot of information on one page. After thinking from a users perspective I decided to redisign the site just focusing on Super Mario and the main 5 character's. The site consists of a main informtion page with a breif history of super Mario, a list of the main titles from the franchise on which consloe it was relised for. The second page consists of a character bio, giveing a decrition of the main 5 characters and there abilitys thorought the series. the 3rd page is a sign up to newsletter as this is not a live site the sign up page once etails are added brings the user to a hidden thank you page.
+The site design evolved over time from the origanl plans, feed back from user input made me re-think the layout as there was alot of information on one page. After thinking from a users perspective I decided to redisign the site just focusing on Super Mario and the main five character's. The site consists of a main informtion page with a breif history of Super Mario, a list of the main titles from the franchise and on which consloe it was released for. The second page consists of a character bio, giving a description of the main five characters and there abilities thorought the series. The third page is a sign up to newsletter, once details are added it brings the user to a hidden thank you page.
 
 # Colour Scheme
 ### Backgroud Color Scheme
 ![image of color gradient for background](/assets/images/gradient-color-pallet.png)
 ### Colors used for elements in site
-![image of color gradient for elements in site](/assets/images/colorscheme.png)
+![image of color gradient for elements in site](/assets/images/colors-for-text.png)
+![image of pass grades](/assets/images/gradientpassinfo.png)
 
 ## Features
 Responsive on all device sizes
@@ -42,15 +43,15 @@ Responsive on all device sizes
 ## Google Fonts:
 Google fonts were used to import the "Mochiy Pop One" and  "Nunito" font into the style.css file which is used on all pages throughout the project. 
 ## Font Awesome:
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+Font Awesome was used on all pages throughout the website to add icons for social media links in the footer
 
 ## Git
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-GitHub:
+Git was used for version control by utilizing the Gitpod terminal, to commit to Git and Push to GitHub.
+## GitHub:
 GitHub is used to store the projects code after being pushed from Git.
 
 ## Balsamiq:
-Balsamiq was used to create the wireframes during the design process. The wirefames do not match the final deployed site, after user feedback on early development of the site i decided to to change the lay out, to make it more user friendly. I removed the hisory of Nintendo and changed it to a charater bio page for the main 5 charaters. I belive this make for a more streamline version of the site keeping content to a minimum.
+Balsamiq was used to create the wireframes during the design process. The wirefarmes do not match the final deployed site, after user feedback on early development of the site i decided to to change the lay out, to make it more user friendly. I removed the hisory of Nintendo and changed it to a charater bio page for the main five charaters. I belive this make for a more streamline version of the site keeping content to a minimum for a happier user experience.
 
 Home Page Wireframe - [View](/assets/wireframes/main-page.png)
 

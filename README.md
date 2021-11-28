@@ -110,7 +110,7 @@ add wave.web aim report
 
 * W3C Markup Validator characters.html - [Results](https://validator.w3.org/nu/#textarea)
 
-* W3C Markup Validator signup.html - [Results](https://validator.w3.org/nu/#textarea)
+* W3C Markup Validator signup.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Fsignup.html)
 
 * W3C Markup Validator yoursignedup- [Results](https://validator.w3.org/nu/#textarea)
 
@@ -138,7 +138,7 @@ add wave.web aim report
     * Firefox -Version 94.0.2
 * Hp Laptop
     * Microsoft Edge - version 96.0.1054.34 
-    
+
 
 list what browser and devices iv tested on
 checked like works other tabs worked 

@@ -108,11 +108,11 @@ add wave.web aim report
 
 * W3C Markup Validatorindex.html - [Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Findex.html)
 
-* W3C Markup Validator characters.html - [Results](https://validator.w3.org/nu/#textarea)
+* W3C Markup Validator characters.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Fcharacters.html)
 
 * W3C Markup Validator signup.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Fsignup.html)
 
-* W3C Markup Validator yoursignedup- [Results](https://validator.w3.org/nu/#textarea)
+* W3C Markup Validator yoursignedup- [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2Fyoursignedup.html%3Ffname%3Dbenjamin%26lname%3Dharriss%26email%3Dharriss_1%2540hotmail.co.uk)
 
 * W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 

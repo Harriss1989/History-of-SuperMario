@@ -7,16 +7,20 @@
 }
 
 body {
+	font-family: Nunito, sans-serif;
+	background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
+}
+
+.small-page {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	font-family: Nunito, sans-serif;
-	background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
 }
 
 .page-container {
 	max-width: 1920px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 /* heading and logo */
@@ -141,7 +145,7 @@ b {
 .flexbox-item-1 {
 	background-color: rgb(235 222 222 / 72%);
 	min-height: 100px;
-	box-shadow: 0px 0px 10px 5px black;
+	box-shadow: 0px 0px 10px 5px #000000;
 	border-radius: 1% / 1%;
 	order: 2;
 }

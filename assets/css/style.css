@@ -14,7 +14,6 @@ body {
 	background-image: linear-gradient(to bottom, #4220d1, #006eff, #0097f2, #00b7c8, #00d1a2, #3fcf7b, #69ca4d, #90c200, #a9a300, #ba8100, #c25c00, #c22e01);
 }
 
-
 /* heading and logo */
 
 header {
@@ -69,7 +68,6 @@ b {
 	font-family: "Mochiy Pop One", sans-serif;
 }
 
-
 /* navigation style */
 
 #menu {
@@ -88,7 +86,6 @@ b {
 	list-style-type: none;
 	margin: 10px;
 	color: #d9f2f6;
-	;
 }
 
 #menu a {
@@ -105,7 +102,6 @@ b {
 	border-bottom: 1px solid #fff
 }
 
-
 /* hero image */
 
 #hero-image {
@@ -121,7 +117,6 @@ b {
 	background: url(../images/3dmario.png) no-repeat center;
 	margin-top: 120px;
 }
-
 
 /* flex-container */
 
@@ -159,7 +154,6 @@ b {
 	font-size: larger;
 }
 
-
 /* footer links */
 
 .social-meida {
@@ -169,12 +163,6 @@ b {
 	left: 0;
 	width: 100%;
 }
-
-#footer-container {
-	bottom: 0;
-	width: 100%;
-}
-
 
 /* sign-up-form */
 
@@ -243,7 +231,6 @@ input {
 	padding-top: 50px;
 }
 
-
 /* font awsome logos */
 
 .far {
@@ -261,7 +248,6 @@ input {
 	display: flex;
 	justify-content: center;
 }
-
 
 /* character containers */
 
@@ -303,7 +289,6 @@ input {
 	font-size: larger;
 }
 
-
 /* main titles containers*/
 
 .box1 {
@@ -341,11 +326,8 @@ input {
 	width: clamp(260px, 80%, 600px);
 }
 
-
 /* Media queries */
-
-@media screen and (max-width: 1570px) {}
-
+/* laptop screens */
 @media screen and (max-width: 1410px) {
 	header {
 		display: flex;
@@ -353,6 +335,7 @@ input {
 		align-items: center;
 		flex-direction: column;
 	}
+
 	#menu {
 		display: flex;
 		flex-direction: row;
@@ -367,6 +350,7 @@ input {
 		align-items: center;
 		flex-direction: column;
 	}
+
 	#menu {
 		display: flex;
 		flex-direction: row;
@@ -374,57 +358,71 @@ input {
 	}
 }
 
+/* small laptop screens */
 @media screen and (max-width: 1150px) {
 	.flexbox-item {
 		padding-left: 20px;
 	}
+
 	.box1>li {
 		padding-left: 20px;
 	}
+
 	.box2>li {
 		padding-right: 20px;
 	}
+	
 	.character-container {
 		flex-direction: column;
 		align-items: center;
 		background: none;
 	}
+
 	.character-bio-box {
 		padding-top: 20px;
 		max-width: 75%;
 		margin-bottom: 20px;
 	}
+
 	.character-bio-box>img {
 		max-width: 25%;
 	}
+
 	.character-h1 {
 		font-size: xx-large;
 	}
 }
 
+/* large tablets */
 @media screen and (max-width: 985px) {
 	.flexbox-item {
 		padding-left: 20px;
 	}
+
 	.box1 {
 		flex-direction: column;
 	}
+
 	.box2 {
 		flex-direction: column;
 	}
+
 	.box2>img {
 		width: 30%;
 		margin: 15px;
 	}
+
 	.box1>img {
 		width: 55%;
 		margin: 15px;
 	}
+
 	form {
 		width: 80%;
 	}
 }
 
+/* mobile devices */
 @media screen and (max-width: 610px) {
 	#submit {
 		margin-top: 50px;
@@ -437,10 +435,12 @@ input {
 		flex-direction: column;
 		line-height: 30px;
 	}
+
 	.box2>img {
 		width: 80%;
 		margin: 15px;
 	}
+
 	.box1>img {
 		width: 80%;
 		margin: 15px;

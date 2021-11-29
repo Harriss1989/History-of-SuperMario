@@ -202,7 +202,8 @@ form {
 	background: #fff;
 	margin: 8% auto 0;
 	text-align: center;
-	width: 40%;
+	width: 50%;
+	max-width: 610px;
 	gap: 20px;
 }
 

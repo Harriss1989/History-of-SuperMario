@@ -96,7 +96,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Google Chrome Lighthouse Report
 * light house report desktop
-![light house report desktop](/assets/images/lighthouse.png)
+![light house report desktop](/assets/images/lighthousedesktop.png)
 * light house report mobile
 ![light house report mobile](/assets/images/lighthousemobile.png)
 

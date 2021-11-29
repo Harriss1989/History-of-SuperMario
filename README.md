@@ -111,6 +111,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fharriss1989.github.io%2FHistory-of-SuperMario%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+After checking course material I added aria-label to my hero-image and thankyou image, the validator is giving me a warning after talking to my mentor and trying a diffrent aria tag this then gave me a error so i reverted it back to just give a warning.
 ### Accessibility Report
 
 * Wave Report - [Results](https://wave.webaim.org/report#/https://harriss1989.github.io/History-of-SuperMario/index.html)

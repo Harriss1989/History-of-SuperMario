@@ -4,7 +4,7 @@ History of Super Mario is a site for looking back at the iconic characters, game
 
 ![responsive](./assets/images/responsive.png)
 
-[Link to live site] (https://harriss1989.github.io/History-of-SuperMario/)
+[Link to live site](https://harriss1989.github.io/History-of-SuperMario/)
 
 ## User Experience (UX)
 * User stories
@@ -140,6 +140,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 From these test above I ensured all the links and buttons worked correctly. I used the devices listed above to test the deployed site. I also used the devtools emulator to test the site at various sizes. 
 
+# Deployment
+* The site was deployed to Github pages.the step to deploy are as follows:
+  * In the GitHub pages, navigate to the settings tab
+  * select the pages link from the setting menu on the left hand side 
+  * Under the GitHub pages from the source section drop-down menu, select the master branch
+  * Once the master branch has been selected,the page will be automatically refreshed
+  with a detailed ribbon display to indecate the successful deployment.
+
+ [Link to live site](https://harriss1989.github.io/History-of-SuperMario/)
+ 
 # Credits
 Media source
  * https://www.vecteezy.com/
@@ -152,7 +162,6 @@ Media source
  * I referenced mario.fandome to fact check the information. [mario.fandom.com](https://mario.fandom.com/wiki/MarioWiki)
  * I referred to w3schools to check HTML and CSS syntax.
  * I referred to CSS-Tricks to help me understand flexbox in more detail.
- [Link to live site](https://harriss1989.github.io/History-of-SuperMario/)
 
  ### Acknowledgments
 

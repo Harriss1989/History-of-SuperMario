@@ -116,14 +116,14 @@ b {
 #hero-image {
 	height: 65vh;
 	width: 100%;
-	background: url(../images/heroimage.jpeg) no-repeat center;
+	background: url("../images/heroimage.jpeg") no-repeat center;
 	background-size: cover;
 }
 
 #thankyou {
 	height: 80vh;
 	width: 100%;
-	background: url(../images/3dmario.png)no-repeat center;
+	background: url("../images/3dmario.png") no-repeat center;
 	background-size: contain;
 }
 
@@ -164,6 +164,10 @@ b {
 }
 
 /* footer links */
+
+.links-list {
+	display: flex;
+}
 
 .social-meida {
 	background: #000000;
